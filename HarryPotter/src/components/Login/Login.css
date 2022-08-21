@@ -1,0 +1,61 @@
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+    background: rgb(159,38,52);
+    background: -moz-linear-gradient(304deg, rgba(159,38,52,1) 32%, rgba(253,187,45,1) 81%);
+    background: -webkit-linear-gradient(304deg, rgba(159,38,52,1) 32%, rgba(253,187,45,1) 81%);
+    background: linear-gradient(304deg, rgba(159,38,52,1) 32%, rgba(253,187,45,1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9f2634",endColorstr="#fdbb2d",GradientType=1);
+}
+
+.loginSystem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.loginSystem--user, .loginSystem--password{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginSystem--user__input, .loginSystem--password__input{
+    height: 3.5vh;
+    border: 2px solid rgba(253,187,45,1);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(159,38,52,1);
+    cursor: pointer;
+}
+
+.loginSystem--register{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.loginSystem--register span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.loginSystem--login{
+    width: 200%;
+    height: 3.25vh;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 3px 3px rgba(253,187,45,1);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.loginSystem--login:active{
+    box-shadow: -3px -3px rgba(253,187,45,1);
+    color: rgba(253,187,45,1);
+}
